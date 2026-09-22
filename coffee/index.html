@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Coffee</title>
+<meta name="description" content="Política de privacidade do app Coffee, da Folium Studios.">
+<link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+<main>
+
+<h1>Política de Privacidade — Coffee</h1>
+<p class="data">Última atualização: 22 de setembro de 2026</p>
+
+<h2>Resumo</h2>
+<p>O Coffee não tem conta e não pede nenhum dado pessoal seu. Seus cafés e
+extrações ficam no aparelho.</p>
+<p>O app envia ao nosso servidor uma <strong>telemetria anônima</strong> sobre
+preparos, para melhorar as tabelas de correção. Ela vem <strong>ligada por
+padrão</strong> e pode ser desligada nos Ajustes. Esta página descreve
+exatamente o que é enviado.</p>
+
+<h2>O que fica no aparelho</h2>
+<p>Num banco de dados local, que só o app enxerga:</p>
+<ul>
+  <li>cafés cadastrados, pacotes em estoque e datas de torra</li>
+  <li>suas extrações e o retorno que você deu a cada xícara</li>
+  <li>seu moedor e o ponto de moagem</li>
+  <li>preferências e idioma</li>
+</ul>
+<p>Desinstalar o app apaga tudo isso.</p>
+
+<h2>O que é enviado</h2>
+<p>Dois eventos, e nenhum outro:</p>
+<ul>
+  <li><strong>Abertura do app</strong> — identificador do aparelho e data/hora.</li>
+  <li><strong>Extração registrada</strong> — identificador do aparelho, data/hora
+      e os dados do preparo: método, o retorno que você deu à xícara, o
+      moedor e o ponto de moagem no momento, o nível de torra, a correção
+      sugerida (qual variável, em que valor) e o tempo da extração.</li>
+</ul>
+<p>Não vai junto nada que identifique você ou o café específico: sem nome, sem
+e-mail, sem conta, sem localização, sem o nome do café que você cadastrou.</p>
+
+<h3>Sobre o identificador do aparelho</h3>
+<p>É um número aleatório gerado na primeira vez que o app abre e guardado
+apenas no aparelho. <strong>Não</strong> vem do hardware, <strong>não</strong>
+é o ID de publicidade do Android, e não acompanha você para fora deste app.
+Ele existe para que as extrações de um mesmo aparelho possam ser lidas em
+conjunto. Desinstalar o app o descarta em definitivo — reinstalar gera outro,
+sem ligação com o anterior.</p>
+
+<h3>Para onde vai</h3>
+<p>Para um banco hospedado no Supabase. A chave que o app usa permite apenas
+<strong>inserir</strong>: o próprio app não consegue ler, alterar ou apagar o
+que já foi enviado.</p>
+
+<h2>Como desligar</h2>
+<p><strong>Ajustes → telemetria.</strong> Desligar interrompe o envio na hora e
+<strong>apaga a fila local</strong> de eventos que ainda não tinham sido
+enviados.</p>
+<p>O app funciona por completo com a telemetria desligada. Nenhum recurso
+depende dela.</p>
+
+<h2>Conteúdo atualizado pela internet</h2>
+<p>O app baixa de um endereço público as receitas, os métodos, as tabelas de
+correção e o catálogo de cafés, para que melhorem sem precisar de atualização
+na loja.</p>
+<p>É só download: nada seu vai junto. Como em qualquer acesso à internet, o
+servidor enxerga o endereço IP de onde veio a requisição.</p>
+
+<h2>Câmera</h2>
+<p>A câmera é usada <strong>só para ler o código de barras</strong> de um
+pacote de café, em tempo real, quadro a quadro.</p>
+<p>O app <strong>não tira foto, não guarda imagem e não envia imagem</strong>.
+Do que a câmera vê, o que sai da tela é apenas o número do código de barras —
+e ele fica no aparelho.</p>
+
+<h2>O que o app não faz</h2>
+<ul>
+  <li>Não pede login nem cria conta</li>
+  <li>Não usa publicidade, nem SDK de analytics de terceiros</li>
+  <li>Não acessa localização, contatos, fotos, arquivos ou microfone</li>
+  <li>Não vende dados, nem os compartilha com terceiros para fins próprios deles</li>
+</ul>
+
+<h2>Crianças</h2>
+<p>O app não é direcionado a crianças e não coletamos conscientemente dados de
+menores de idade.</p>
+
+<h2>Seus direitos</h2>
+<p>Desligar a telemetria nos Ajustes interrompe a coleta e apaga o que ainda
+não foi enviado. Desinstalar o app apaga tudo que está no aparelho.</p>
+<p>Sobre o que já foi enviado, é preciso ser honesto: como não há conta, o
+identificador do aparelho é o único elo entre os eventos e você — e ele não é
+exibido dentro do app. Na prática, isso significa que <strong>nós não
+conseguimos identificar quais eventos são seus</strong>. Se você quiser tratar
+de um pedido de exclusão, escreva para o contato abaixo e responderemos o que
+é possível fazer no seu caso.</p>
+
+<h2>Alterações</h2>
+<p>Mudanças nesta política aparecem nesta mesma página, com a data de
+atualização no topo.</p>
+
+<h2>Contato</h2>
+<p><a href="mailto:dev@foliumstudios.com">dev@foliumstudios.com</a></p>
+
+<footer>Folium Studios</footer>
+
+</main>
+</body>
+</html>
